@@ -5,6 +5,13 @@ const person = {
   age: 80,
 };
 
+var team = players;
+
+var team1 = players.slice();
+
+var cap1 = person.slice();
+
+console.log(cap1);
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
 window.players = players;
